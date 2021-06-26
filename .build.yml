@@ -4,7 +4,7 @@ packages:
   - python-wheel
   - twine
 secrets:
-  - 5d2d4720-f0a1-41c2-ac43-eaff3094b6ae
+  - 55e5a7f3-0b90-4196-b002-1a81cc9d1650
 tasks:
   - build: |
       cd aiohttp-oauthlib
