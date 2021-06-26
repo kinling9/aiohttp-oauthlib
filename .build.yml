@@ -1,0 +1,15 @@
+image: archlinux
+packages:
+  - python-pip
+  - python-wheel
+  - twine
+secrets:
+  - 5d2d4720-f0a1-41c2-ac43-eaff3094b6ae
+tasks:
+  - build: |
+      cd aiohttp-oauthlib
+      python setup.py sdist bdist_wheel
+      git describe --exact-match --tags || complete-build
+  - publish: |
+      cd aiohttp-oauthlib
+      twine upload dist/*
