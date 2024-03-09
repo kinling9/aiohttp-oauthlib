@@ -5,7 +5,7 @@ setup(
     name="aiohttp-oauthlib",
     description="oauthlib for aiohttp clients.",
     author="Hugo Osvaldo Barrera",
-    author_email="hugo@barrera.io",
+    author_email="hugo@whynothugo.nl",
     url="https://git.sr.ht/~whynothugo/aiohttp-oauthlib",
     license="ISC",
     py_modules=["aiohttp_oauthlib"],
